@@ -1,0 +1,183 @@
+.logoIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.logo {
+  width: 260px;
+  height: 160px;
+}
+.iconLeft,
+.logo,
+.text {
+  position: relative;
+}
+.iconLeft {
+  width: 12px;
+  height: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.text {
+  font-weight: 600;
+}
+.button,
+.buttonBase {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonBase {
+  flex-direction: row;
+  gap: 4px;
+}
+.button {
+  flex-direction: column;
+  text-align: center;
+  font-size: 24px;
+}
+.mapLIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.iconLeft1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.ruaJooBettega {
+  margin: 0;
+}
+.text1 {
+  position: relative;
+}
+.button1,
+.buttonBase1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonBase1 {
+  flex-direction: row;
+  gap: 8px;
+}
+.button1 {
+  flex-direction: column;
+}
+.phoneLIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.contact,
+.iconLeft2 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.contact {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.icon {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.about,
+.button4 {
+  display: flex;
+  flex-direction: column;
+}
+.button4 {
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+.about {
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  text-align: center;
+}
+.content,
+.content1,
+.navigation,
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 64px;
+}
+.content,
+.content1,
+.socialMedia {
+  align-self: stretch;
+  gap: 40px;
+}
+.content1,
+.socialMedia {
+  overflow: hidden;
+  justify-content: center;
+  gap: 16px;
+}
+.socialMedia {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 24px;
+}
+.container,
+.footer,
+.footer1 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.container {
+  flex-direction: row;
+  padding: 0 32px;
+  justify-content: space-between;
+}
+.footer,
+.footer1 {
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer1 {
+  background-color: #f4f5f8;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  border-top: 4px solid #752f86;
+  padding: 40px 100px;
+}
+.footer {
+  background-color: #fff;
+  padding: 20px 0 0;
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+  font-family: Inter;
+}
